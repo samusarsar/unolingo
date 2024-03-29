@@ -10,6 +10,7 @@ import {
 	UserButton,
 } from '@clerk/clerk-react';
 import { Loader } from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
