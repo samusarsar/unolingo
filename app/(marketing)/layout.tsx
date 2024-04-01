@@ -1,7 +1,8 @@
+import { BaseProps } from '@/common/types';
 import Footer from './_components/footer';
 import Header from './_components/header';
 
-const MarketingLayout = ({ children }: { children: React.ReactNode }) => {
+const MarketingLayout = ({ children }: BaseProps) => {
 	return (
 		<div className='min-h-screen flex flex-col'>
 			<Header />
