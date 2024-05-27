@@ -1,10 +1,10 @@
-import { Datagrid, List, TextField } from 'react-admin';
+import { Datagrid, List, TextField, NumberField } from 'react-admin';
 
 export const CourseList = () => {
     return (
         <List>
             <Datagrid rowClick='edit'>
-                <TextField source='id'></TextField>
+                <NumberField source='id'></NumberField>
                 <TextField source='title'></TextField>
                 <TextField source='imageSrc'></TextField>
             </Datagrid>
